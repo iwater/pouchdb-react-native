@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-adapter-asyncstorage",
-  "version": "6.4.1",
+  "version": "6.4.2",
   "description": "asyncstorage adapter for PouchDB",
   "main": "./src/index.js",
   "repository": {
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/stockulus/pouchdb-react-native#readme",
   "dependencies": {
+    "@react-native-community/async-storage": "^1.7.1",
     "atob": "2.0.3",
     "blob-polyfill": "2.0.20171115",
     "btoa": "1.1.2",
