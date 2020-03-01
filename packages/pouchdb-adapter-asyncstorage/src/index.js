@@ -107,13 +107,7 @@ function AsyncStoragePouch (dbOpts, constuctorCallback) {
   }
 }
 
-AsyncStoragePouch.valid = () => {
-  try {
-    return require('react-native').AsyncStorage !== null
-  } catch (error) {
-    return false
-  }
-}
+AsyncStoragePouch.valid = () => true
 
 AsyncStoragePouch.use_prefix = false
 
